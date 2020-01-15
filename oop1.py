@@ -1,5 +1,14 @@
-class Car(object):
-    def __init__(self,make):
-        self.make_car = make
-c1 = Car('bmw')
-print(c1.make())
+class PlayerCharacter:
+    def __init__(self, name, age):
+       self.name = name
+       self.age = age
+
+    def run(self):
+          print('run')
+
+player1 = PlayerCharacter('Tom',55)
+player2 = PlayerCharacter('John',60)
+
+print(player1.name)
+print(player2.age)
+       
