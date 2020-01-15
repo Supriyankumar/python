@@ -1,2 +1,3 @@
 # python
-All python code is found here
+Software : Pycharm, Python IDLE
+
